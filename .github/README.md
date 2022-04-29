@@ -1,12 +1,10 @@
 = TODO =
 
-* Better status bar (e.g., date, get rid of no lan, etc.
+* Larger/Better font for terminal
 * vimrc
-* Larger font for terminal
 * Multiscreen
 * Starship
-* Start firefox during boot.
-* Firefox always goes into 5
+* Consider switching to polybar
 
 = Setting up from scratch =
 
@@ -39,3 +37,7 @@ Option "ClickMethod" "clickfinger"
 ```
 "caps:swapescape"
 ```
+
+* Make firefox font slightly bigger.
+
+Go to about:config. Change `layout.css.devPixelsPerPx` to something like 1.1
