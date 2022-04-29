@@ -1,5 +1,6 @@
 # TODO
 
+* Audio Stuff
 * Multiscreen
 * Starship
 * Consider switching to polybar
@@ -30,10 +31,16 @@ Option "Tapping" "on"
 Option "ClickMethod" "clickfinger"
 ```
 
-* Adding the following option to /etc/default/keyboard:
+* Adding the following (may need both, may only need one, not sure):
 
+/etc/default/keyboard
 ```
 "caps:swapescape"
+```
+
+/etc/X11/xorg.conf.d/00-keyboard.conf
+```
+Option "KkbOptions" "caps:swapescape"
 ```
 
 * Make firefox font slightly bigger.

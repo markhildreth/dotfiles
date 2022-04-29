@@ -5,6 +5,7 @@ set cursorline
 set listchars=tab:»\ 
 set list
 set ruler
+set noswapfile
 
 " Default tabs, overridable by default language syntax
 set noexpandtab copyindent preserveindent softtabstop=2 shiftwidth=2 tabstop=2

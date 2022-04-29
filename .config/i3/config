@@ -110,6 +110,12 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
+bindsym $mod+Shift+Left move workspace to output Left
+bindsym $mod+Shift+Right move workspace to output Right
+bindsym $mod+Shift+Up move workspace to output Up
+bindsym $mod+Shift+Down move workspace to output Down
+
+
 # Workspace names
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
@@ -123,6 +129,10 @@ set $ws6 6
 set $ws7 7
 set $ws8 8
 set $ws9 9
+
+# TODO: Not sure if this even does anything
+workspace $ws5 output DP-3-3
+workspace $ws6 output eDP-1
 
 # switch to workspace
 bindsym $mod+y workspace $ws1
@@ -254,7 +264,8 @@ mode "resize" {
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # TODO: Removing picom for now, will see how things go.
 #exec --no-startup-id nitrogen --restore; sleep 1; picom -b
-exec --no-startup-id nitrogen --restore
+#exec --no-startup-id nitrogen --restore
+exec --no-startup-id xsetroot -solid "#0D3244"
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
