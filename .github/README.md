@@ -1,6 +1,6 @@
 = TODO =
 
-* Larger/Better font for terminal
+* Accounts / Git
 * vimrc
 * Multiscreen
 * Starship
@@ -41,3 +41,5 @@ Option "ClickMethod" "clickfinger"
 * Make firefox font slightly bigger.
 
 Go to about:config. Change `layout.css.devPixelsPerPx` to something like 1.1
+
+* Switch firefox theme to Solarized Dark
