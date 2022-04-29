@@ -1,12 +1,10 @@
-= TODO =
+# TODO
 
-* Accounts / Git
-* vimrc
 * Multiscreen
 * Starship
 * Consider switching to polybar
 
-= Setting up from scratch =
+# Setting up from scratch
 
 1) Set up a bare git config, as shown [here](https://fwuensche.medium.com/how-to-manage-your-dotfiles-with-git-f7aeed8adf8b).
 
