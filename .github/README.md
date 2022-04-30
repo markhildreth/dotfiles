@@ -1,9 +1,8 @@
 # TODO
 
-* Audio Stuff
-* Multiscreen
-* Starship
 * Consider switching to polybar
+* Multiscreen
+  * Perhaps a stateful Mod+m to switch between single and multi? 
 
 # Setting up from scratch
 
