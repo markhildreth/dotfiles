@@ -22,7 +22,7 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -255,9 +255,6 @@ mode "resize" {
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-# TODO: Removing picom for now, will see how things go.
-#exec --no-startup-id nitrogen --restore; sleep 1; picom -b
-#exec --no-startup-id nitrogen --restore
 exec --no-startup-id xsetroot -solid "#0D3244"
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
