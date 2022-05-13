@@ -6,6 +6,7 @@ set listchars=tab:»\
 set list
 set ruler
 set noswapfile
+set tw=79
 
 " Default tabs, overridable by default language syntax
 set noexpandtab copyindent preserveindent softtabstop=2 shiftwidth=2 tabstop=2
