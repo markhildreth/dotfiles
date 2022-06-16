@@ -1,3 +1,4 @@
+" Some normal VIM rules
 noswap
 syntax enable
 set number
@@ -7,6 +8,10 @@ set list
 set ruler
 set noswapfile
 set tw=79
+
+" Allow for undos to persist between sessions
+set undofile
+set undodir=~/.vim/undodir
 
 " Default tabs, overridable by default language syntax
 set noexpandtab copyindent preserveindent softtabstop=2 shiftwidth=2 tabstop=2
