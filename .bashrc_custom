@@ -1,4 +1,4 @@
-alias vi=vim
+alias vi=nvim
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias docker_postgres='docker run --rm -p 5432:5432 -e "POSTGRES_PASSWORD=password" postgres'
 alias lpsql='psql -h localhost -U postgres postgres'
