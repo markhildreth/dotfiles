@@ -227,6 +227,15 @@ mode "$mode_system" {
     bindsym Escape mode "default"
 }
 
+bindsym $mod+Shift+m mode "$mode_monitors"
+set $mode_monitors (s)ingle (m)ultiple
+mode "$mode_monitors" {
+    bindsym s exec --no-startup-id /home/mark/.screenlayout/one-monitor.sh, mode "default"
+    bindsym m exec --no-startup-id /home/mark/.screenlayout/three-monitors.sh, mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
