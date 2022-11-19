@@ -23,6 +23,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 let g:ctrlp_custom_ignore = 'node_modules\|target\|.\.lock'

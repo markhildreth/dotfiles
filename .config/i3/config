@@ -200,6 +200,7 @@ for_window [class="Xfburn"] floating enable
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
+for_window [class="^.*"] border pixel 2
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
